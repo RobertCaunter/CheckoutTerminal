@@ -40,7 +40,7 @@
 		}
 
 		private bool IsValidProductCode(string productCode) {
-			return !string.IsNullOrEmpty(productCode);
+			return !string.IsNullOrWhiteSpace(productCode);
 		}
 	}
 }
